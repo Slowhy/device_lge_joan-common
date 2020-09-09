@@ -206,6 +206,9 @@ persist.delta_time.enable=true
 # Timeservice
 persist.timed.enable=true
 
+# UI
+sys.use_fifo_ui=1
+
 # Voice assistant
 ro.opa.eligible_device=true
 
