@@ -323,6 +323,12 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# OPScreenRecord
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/apps/OPScreenRecord/system,system)
+
+PRODUCT_PACKAGES += \
+    OPScreenRecord
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
